@@ -22,6 +22,10 @@ public class Lingkaran {
         return (2 * jari);
     }
 
+    public double keliling() {
+        return (2 * phi * jari);
+    }
+
     public void tampil() {
         System.out.println("jari jari: " + jari);
         System.out.println("luas: " + luas());
